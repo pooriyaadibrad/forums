@@ -19,6 +19,7 @@ class category(models.Model):
     def __str__(self):
         return f'{self.name}'
 
+
 """
 this place you can create custom user models for every post for every category and create assiciated model for every post
 class users(models.Model):
